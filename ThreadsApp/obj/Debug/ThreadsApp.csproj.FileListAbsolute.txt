@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\ThreadsApp\ThreadsApp\bin\Debug\ThreadsApp.exe.config
+C:\Users\User\source\repos\ThreadsApp\ThreadsApp\bin\Debug\ThreadsApp.exe
+C:\Users\User\source\repos\ThreadsApp\ThreadsApp\bin\Debug\ThreadsApp.pdb
+C:\Users\User\source\repos\ThreadsApp\ThreadsApp\obj\Debug\ThreadsApp.csprojAssemblyReference.cache
+C:\Users\User\source\repos\ThreadsApp\ThreadsApp\obj\Debug\ThreadsApp.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ThreadsApp\ThreadsApp\obj\Debug\ThreadsApp.exe
+C:\Users\User\source\repos\ThreadsApp\ThreadsApp\obj\Debug\ThreadsApp.pdb
+C:\Users\Alexander\source\repos\ThreadsApp\ThreadsApp\bin\Debug\ThreadsApp.exe.config
+C:\Users\Alexander\source\repos\ThreadsApp\ThreadsApp\bin\Debug\ThreadsApp.exe
+C:\Users\Alexander\source\repos\ThreadsApp\ThreadsApp\bin\Debug\ThreadsApp.pdb
+C:\Users\Alexander\source\repos\ThreadsApp\ThreadsApp\obj\Debug\ThreadsApp.csprojAssemblyReference.cache
+C:\Users\Alexander\source\repos\ThreadsApp\ThreadsApp\obj\Debug\ThreadsApp.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\source\repos\ThreadsApp\ThreadsApp\obj\Debug\ThreadsApp.exe
+C:\Users\Alexander\source\repos\ThreadsApp\ThreadsApp\obj\Debug\ThreadsApp.pdb
