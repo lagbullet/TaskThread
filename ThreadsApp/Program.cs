@@ -7,28 +7,36 @@ namespace ThreadsApp
 
     class Program
     {
-        public static void ThreadMethod(ref bool stopped)
+        public static void ThreadMethod(ref bool stopped, string threadname)
         {
             Stopwatch sw = new Stopwatch();
             sw.Start();
-            while (!stopped) ;
+            while (!stopped)
+            {
+                Console.WriteLine($"{threadname} is running...");
+                Thread.Sleep(500);
+            }
             sw.Stop();
-            Console.WriteLine($"{sw.Elapsed}");
+            Console.WriteLine($"{threadname} is done in {sw.Elapsed} seconds");
         }
 
     static void Main(string[] args)
         {
-            bool stopped = false;
-            Thread t = new Thread(() => ThreadMethod(ref stopped))
+            bool t1 = false;
+            Thread T1 = new Thread(() => ThreadMethod(ref t1,"Thread 1"))
             {
                 IsBackground = true
             };
-            t.Start();
+            T1.Start();
+            bool t2 = false;
+            Thread T2 = new Thread(() => ThreadMethod(ref t2, "Thread 2"));
+            T2.Start();
             Console.ReadLine();
-            stopped = true;
+            t1 = true;
             Console.ReadLine();
-            Console.WriteLine($"{Console.ReadLine()}");
-
+            t2 = true;
+            Console.ReadLine();
+            T2.Join();
         }
     }
 }
